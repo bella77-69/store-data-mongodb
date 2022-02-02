@@ -1,7 +1,13 @@
 ![React Store-Data-Mongodb](./img.jpg)
 
 ## Project Description
-A simple application where you can store a user’s first and last name in a MongoDB database
+A simple application where you can store a user’s first and last name in a MongoDB database.
+What is CRUD
+CRUD is an acronym for Create, Read, Update and Delete. CRUD is the operations that you use to:
+create data in a database
+read the data in a database
+update the data in a database
+delete the data in a database
 
 ## Getting Started
 
