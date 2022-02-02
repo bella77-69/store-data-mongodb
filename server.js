@@ -3,11 +3,13 @@ const bodyParser = require("body-parser");
 
 const port = 3000;
 const app = express();
-let dbUrl = require('./database/db');
+// let dbUrl = require('./database/db');
 app.use(bodyParser.json());
 const MongoClient = require("mongodb").MongoClient;
 app.use(express.static("public"));
 
+const dbUrl =
+  "mongodb+srv://test:test@cluster0.6g8qa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 /* --------------------------------
  *   APP CONFIG
  * -------------------------------- */
