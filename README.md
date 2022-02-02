@@ -17,6 +17,7 @@ install nodemon
 npm install nodemon -D
 ```
 
+start server
 ```shell
 npm start
 ```
