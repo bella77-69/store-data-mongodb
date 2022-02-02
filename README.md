@@ -17,7 +17,15 @@ install nodemon
 npm install nodemon -D
 ```
 
-start server
+update scripts section in package.json
+```shell
+"scripts": { 
+  "test": "echo \"Error: no test specified\" && exit 1", 
+  "start": "nodemon server" 
+},
+```
+
+start our server with this command
 ```shell
 npm start
 ```
