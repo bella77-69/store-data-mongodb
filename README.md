@@ -12,7 +12,12 @@ npm init
 ```
 This command creates a package.json file.
 
+install nodemon
 ```shell
-npm node server.js
+npm install nodemon -D
+```
+
+```shell
+npm start
 ```
 
